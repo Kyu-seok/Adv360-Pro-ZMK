@@ -57,11 +57,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2              &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7                 &kp F8                  &kp F9                &kp F10                 &kp F11                 &kp F12
-&trans  &trans              &trans  &trans  &trans  &trans  &none                                       &none   &trans                 &trans                  &trans                &trans                  &macro_move_app_desc_l  &trans
-&trans  &macro_open_alfred  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &macro_move_app_up_l   &macro_move_app_down_l  &macro_move_app_up_r  &macro_move_app_down_r  &trans                  &trans
-&trans  &trans              &trans  &trans  &trans  &trans                  &trans      &trans                  &macro_move_app_dec_r  &trans                  &trans                &trans                  &trans                  &trans
-&trans  &trans              &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                         &trans                  &trans                &trans                  &trans                  &trans
+&kp F1  &kp F2  &kp F3  &kp F4                  &kp F5             &kp F6  &tog 1                                      &mo 3   &kp F7                 &kp F8                  &kp F9             &kp F10                &kp F11                      &kp F12
+&trans  &trans  &trans  &trans                  &trans             &trans  &none                                       &none   &trans                 &trans                  &trans             &trans                 &kp LG(LC(LA(LEFT_ARROW)))   &trans
+&trans  &trans  &trans  &trans                  &trans             &trans  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_ARROW         &kp DOWN_ARROW          &kp UP_ARROW       &kp RIGHT_ARROW        &trans                       &trans
+&trans  &trans  &trans  &trans                  &trans             &trans                  &trans      &trans                  &kp LG(LC(LA(RIGHT)))  &trans                  &trans             &trans                 &trans                       &trans
+&trans  &trans  &trans  &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT))          &trans  &trans  &trans      &trans  &trans  &trans                         &kp LG(LC(LEFT_ARROW))  &kp LG(LC(RIGHT))  &kp LG(LC(LS(RIGHT)))  &kp LG(LC(LS(RIGHT_ARROW)))  &trans
             >;
         };
 
@@ -77,11 +77,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans                  &trans             &trans  &trans                                      &trans  &trans                      &trans                  &trans             &trans           &trans                 &trans
-&trans  &trans  &trans  &trans                  &trans             &trans  &trans                                      &trans  &trans                      &trans                  &trans             &trans           &kp LG(LC(LA(RIGHT)))  &trans
-&trans  &trans  &trans  &trans                  &trans             &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT                    &kp DOWN_ARROW          &kp UP_ARROW       &kp RIGHT_ARROW  &trans                 &trans
-&trans  &trans  &trans  &trans                  &trans             &trans                  &trans      &trans                  &kp LG(LC(LA(LEFT_ARROW)))  &trans                  &trans             &trans           &trans                 &trans
-&trans  &trans  &trans  &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT))          &trans  &trans  &trans      &trans  &trans  &trans                              &kp LG(LC(LEFT_ARROW))  &kp LG(LC(RIGHT))  &trans           &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans            &trans             &trans                &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans            &trans             &trans                &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                    &trans             &trans                &trans                 &trans  &trans
             >;
         };
     };
