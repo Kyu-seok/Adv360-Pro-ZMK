@@ -65,11 +65,11 @@
 
         layer_fn {
             bindings = <
-&kp F11  &kp F1  &kp F2  &kp F3                  &kp F4             &kp F5  &tog 2                                      &mo 4   &kp F6                 &kp F7                  &kp F8                &kp F9             &kp F10                      &kp F12
-&trans   &trans  &trans  &trans                  &trans             &trans  &none                                       &none   &trans                 &trans                  &trans                &trans             &kp LG(LC(LA(LEFT_ARROW)))   &trans
-&trans   &trans  &trans  &trans                  &kp LG(LA(F))      &trans  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_ARROW         &kp DOWN_ARROW          &kp UP_ARROW          &kp RIGHT_ARROW    &trans                       &trans
-&trans   &trans  &trans  &kp LG(LC(C))           &trans             &trans                  &trans      &trans                  &kp LG(LC(LA(RIGHT)))  &trans                  &trans                &trans             &trans                       &trans
-&trans   &trans  &trans  &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT))          &trans  &trans  &trans      &trans  &trans  &trans                         &kp LG(LC(LEFT_ARROW))  &kp LG(LC(LS(LEFT)))  &kp LG(LC(RIGHT))  &kp LG(LC(LS(RIGHT_ARROW)))  &trans
+&kp F11  &kp F1          &kp F2          &kp F3                  &kp F4             &kp F5  &tog 2                                      &mo 4   &kp F6                 &kp F7                  &kp F8                &kp F9             &kp F10                      &kp F12
+&trans   &trans          &kp UP_ARROW    &trans                  &trans             &trans  &none                                       &none   &trans                 &trans                  &trans                &trans             &kp LG(LC(LA(LEFT_ARROW)))   &trans
+&trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW         &kp LG(LA(F))      &trans  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_ARROW         &kp DOWN_ARROW          &kp UP_ARROW          &kp RIGHT_ARROW    &trans                       &trans
+&trans   &trans          &trans          &kp LG(LC(C))           &trans             &trans                  &trans      &trans                  &kp LG(LC(LA(RIGHT)))  &trans                  &trans                &trans             &trans                       &trans
+&trans   &trans          &trans          &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT))          &trans  &trans  &trans      &trans  &trans  &trans                         &kp LG(LC(LEFT_ARROW))  &kp LG(LC(LS(LEFT)))  &kp LG(LC(RIGHT))  &kp LG(LC(LS(RIGHT_ARROW)))  &trans
             >;
         };
 
